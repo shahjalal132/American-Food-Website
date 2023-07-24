@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* *** header-section *** */
+
+/**** header-top  ****/
+
+.header-top{
+    background-color: #3d5f00;
+}
+
+.header-top .search-area form input{
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    padding-bottom: 5px;
+}
+
+.header-top .search-area form input::placeholder{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header-top .search-area form i{
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.header-top .login-area a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-top .login-area a:hover{
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    color: #3d5f00;
+}
+
+.header-top .login-area a i{
+    font-size: 18px;
+}
+
+/* *** header-nav *** */
+
+.header-section .header-nav ul li a{
+    font-size: 20px;
+    color: #3d5f00;
+    font-weight: 500;
+}
+
+.header-section .header-nav ul li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #3d5f00;
+    transition: 0.5s;
+}
+
+.header-section .header-nav ul li:hover a::after{
+    width: 100%;
+}
+
+/**** header-banner ****/
+
+.header-banner{
+    background: url(images/header-banner.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-size: 100% auto; */
+}
+
+.p-primary{
+    font-size: 18px;
+    color: #3d5f00;
+    font-weight: 400;
+}
+
+.banner-text{
+    padding: 102px 0;
+}
+
+.header-banner .banner-text h1{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #3d5f00;
+    margin-bottom: 0;
+    line-height: 3rem;
+}
+
+.header-banner .banner-text h2{
+    font-size: 3rem;
+    color: #3d5f00;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+}
+
+.buttons .order-btn{
+    background-color: #3d5f00;
+    padding: 20px 40px;
+    color: #ffffff;
+    font-weight: 500;
+    border: 1px solid transparent;
+    font-size: 18px;
+    border-radius: 20px 0 20px 0;
+    transition: 0.5s;
+}
+
+.buttons .order-btn:hover{
+    background-color: #ffffff;
+    border: 1px solid #3d5f00;
+    color: #3d5f00;
+}
+
+.buttons .icon-btn{
+    background-color: #3d5f00;
+    padding: 20px 30px;
+    color: #ffffff;
+    font-weight: 500;
+    border: 1px solid transparent;
+    font-size: 18px;
+    border-radius: 20px 0 20px 0;
+    transition: 0.5s;
+
+}
+
+.buttons .icon-btn:hover{
+    background-color: #ffffff;
+    border: 1px solid #3d5f00;
+    color: #3d5f00;
+}
+
+/**** about-section ****/
+
+.about-section{
+    padding: 100px 0;
+}
+
+.h2-primary{
+    font-size: 3rem;
+    text-align: center;
+    color: #3d5f00;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.about-section-header p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.h3-primary{
+    font-size: 2rem;
+    color: #3d5f00;
+}
+
+.about-section-body{
+    margin-top: 50px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+/* .about-section-body .as-text{
+    padding: 50px 20px;
+} */
+
+.about-section-footer{
+    margin-top: 100px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+/**** services-section ****/
+
+.services-section{
+    padding-bottom: 50px;
+}
+
+.services-top{
+    margin-bottom: 30px;
+}
+
+/**** discount1-section ****/
+
+.discount1-section{
+    background: url(images/discount1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.discount-text{
+    padding: 50px 20px;
+}
+
+.h5-primary{
+    font-size: 1.5rem;
+    color: #3d5f00;
+    font-weight: 500;
+}
+
+.h2-secondary{
+    font-size: 2rem;
+    color: #3d5f00;
+    font-weight: 700;
+}
+
+.h3-secondary{
+    font-size: 1.5rem;
+    color: #3d5f00;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+/**** pricing-section ****/
+
+.pricing-section{
+    padding: 100px 0;
+}
+
+.pricing-cart{
+    margin-top: 100px;
+}
+
+.card{
+    width: 22rem;
+    background-color: #f1f1f1;
+}
+
+/**** discount2-section ****/
+
+.discount2-section{
+    background: url(images/discount2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/**** blog-section ****/
+
+.blog-section{
+    padding: 100px 0;
+}
+
+.blog-items{
+    padding-top: 50px;
+}
+
+.bi-one{
+    position: relative;
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 241, 241, 0.8);
+    display: none;
+    transition: 1s;
+}
+
+.bi-one:hover .layer{
+    display: block;
+}
+
+/**** footer-section ****/
+
+.footer-section{
+    padding: 80px;
+    background-color: #3d5f00;
+}
+
+.footer-section h5{
+    font-weight: 400;
+}
+
+.footer-section .social-icons ul li a{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.footer-section .social-icons ul li a i{
+    font-size: 20px;
+    color: #3d5f00;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
